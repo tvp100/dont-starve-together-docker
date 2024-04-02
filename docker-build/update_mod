@@ -1,0 +1,4 @@
+#!/bin/bash
+# update game mod only
+
+./dontstarve_dedicated_server_nullrenderer -only_update_server_mods

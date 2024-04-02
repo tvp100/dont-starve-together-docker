@@ -21,6 +21,13 @@ RUN dpkg --add-architecture i386 \
     && apt-get autoremove -y \
     && apt-get clean -y
 
+# 安装测试工具
+RUN apt-get install -y vim
+
+# 安装ps工具查看进程
+RUN apt-get install -y procps
+
+
 # add dst user and group
 RUN groupadd "${dst_group}" \
     && useradd -g "${dst_group}" "${dst_user}"

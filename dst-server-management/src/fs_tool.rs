@@ -22,7 +22,7 @@ pub fn check_dir_format_right(fpath: &str) -> Result<bool, String> {
             }
 
             if missing_entries.is_empty() && found_entries.len() == expected_entries.len() {
-                println!("All expected entries found in the directory.");
+                // println!("All expected entries found in the directory.");
             } else {
                 println!("Missing entries:");
                 for entry in missing_entries {

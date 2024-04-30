@@ -1,0 +1,23 @@
+{
+  "greeting": "你好",
+  "home-page": "主页",
+  "import-game": "导入",
+  "setting": "设置",
+  "card": {
+    "game_mod": "模式",
+    "master_only": "仅地上",
+    "hybrid": "地上+洞穴",
+    "description": "描述",
+    "password": "密码",
+    "player": "玩家",
+    "status": "状态",
+    "start": "开始",
+    "running": "运行中",
+    "stop": "停止",
+    "backup": "备份",
+    "download": "下载"
+  },
+  "import": {
+    "choose_file": "选择一个文件…"
+  }
+}

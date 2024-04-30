@@ -1,0 +1,23 @@
+{
+  "greeting": "Hello",
+  "home-page": "Home",
+  "import-game": "Import",
+  "setting": "Setting",
+  "card": {
+    "game_mod": "Game_mod",
+    "master_only": "Ground",
+    "hybrid": "Ground+Caves",
+    "description": "Description",
+    "password": "Password",
+    "player": "Player",
+    "status": "Status",
+    "start": "Start",
+    "running": "Running",
+    "stop": "Stop",
+    "backup": "Backup",
+    "download": "Download"
+  },
+  "import": {
+    "choose_file": "Choose a file…"
+  }
+}
